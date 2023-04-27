@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Guess the Color</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Guess the Color</h1>
+	<div id="color-box"></div>
+	<div id="color-list">
+		<p>Choose the color:</p>
+		<ul>
+			<li><button id="btn0" onclick="checkColor(0)"></button></li>
+			<li><button id="btn1" onclick="checkColor(1)"></button></li>
+			<li><button id="btn2" onclick="checkColor(2)"></button></li>
+		</ul>
+	</div>
+	<p id="result"></p>
+	<button onclick="newGame()">New Game</button>
+	<script src="script.js"></script>
+</body>
+</html>
